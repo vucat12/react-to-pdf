@@ -1,6 +1,6 @@
 {
-  "name": "react-to-pdf",
-  "version": "2.0.1",
+  "name": "@vucat12/react-to-pdf",
+  "version": "0.0.1",
   "description": "Create PDF documents from React Components",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -12,14 +12,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivmarcos/react-to-pdf.git"
+    "url": "git+https://github.com/vucat12/react-to-pdf.git"
   },
-  "author": "Marcos Andrei Ivanechtchuk",
+  "author": "vucat12",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ivmarcos/react-to-pdf/issues"
+    "url": "https://github.com/vucat12/react-to-pdf/issues"
   },
-  "homepage": "https://github.com/ivmarcos/react-to-pdf#readme",
+  "homepage": "https://github.com/vucat12/react-to-pdf#readme",
   "scripts": {
     "start": "vite",
     "build": "node scripts/build && rollup -c",
@@ -69,5 +69,9 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
   }
 }
